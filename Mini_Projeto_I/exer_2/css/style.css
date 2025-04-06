@@ -1,0 +1,33 @@
+#board {
+    width: 80vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    border: 1vh solid black;
+    align-items: stretch;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.wsquare {
+    background-color: white;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.bsquare {
+    background-color: grey;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 6vh;
+    height: 6vh;
+    margin: auto;
+}
