@@ -1,0 +1,70 @@
+body {
+    box-sizing: border-box;
+}
+
+#cabecalhos {
+    text-align: center;
+    background-color: lightgray;
+    padding: 2vh;
+}
+
+.title {
+    color: navy;
+}
+
+#paragrafo1 {
+    color: blue;
+    font-size: medium;
+}
+
+#paragrafo2 {
+    color: darkgreen;
+    font-size: small;
+}
+
+#link1 {
+    color: red;
+    text-decoration: none;
+}
+
+#square_list {
+    list-style-type: square;
+    color: orange;
+}
+
+#circle_list {
+    list-style-type: circle;
+    color: brown;
+}
+
+table {
+    border: 0.2vh solid black;
+    margin: auto;
+    border-collapse: collapse;
+    width: 98vw;
+    text-align: center;
+}
+
+td, th {
+    border: 0.2vh solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
+#center_text {
+    text-align: center;
+}
+
+img {
+    width: 20vw;
+    float: right;
+    margin: 8vh 0.5vh;
+}
+

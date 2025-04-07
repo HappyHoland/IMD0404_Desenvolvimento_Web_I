@@ -1,0 +1,89 @@
+table {
+    border-collapse: collapse;
+    border-radius: 0.2vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: 0;
+    color: grey;
+}
+
+th, td {
+    border: 0.2vh solid lightgray;
+    text-align: center;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+th {
+    color: lightgray;
+    padding: 1.5vh;
+}
+
+#blank {
+    border: 0;
+}
+
+.class {
+    text-align: left;
+    padding: 1vh;
+}
+
+.basic {
+    background-color: #8acffa;
+}
+
+.standard {
+    background-color: rgb(91, 181, 255);
+}
+
+.advanced {
+    background-color: #8b83ff;
+}
+
+.banners {
+    height: 10vh;
+}
+
+td.basic, td.standard, td.advanced {
+    font-size: 8vh;
+    color: white;
+    padding: 1.5vh;
+}
+
+a.basic, a.standard, a.advanced {
+    padding: 1.5vh 2vw;
+    color: white;
+    border-radius: 0.5vh;
+}
+
+#last {
+    height: 10vh;
+}
+
+h1 {
+    color: #8b83ff;
+    margin-bottom: 2vh;
+}
+
+p {
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 5vh;
+}
+
+#teste {
+    padding: 1.5vh 2vw;
+    color: white;
+    border-radius: 0.5vh;
+    background-color: rgb(91, 181, 255);
+    
+}
+
+div {
+    width: 40vw;
+    margin: auto;
+    margin-bottom: 0;
+    height: 35vh;
+    text-align: center;
+}
+
