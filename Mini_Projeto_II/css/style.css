@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    flex-direction: row;
+    flex: 2;
+    padding: 0 2vh;
+    background-color: #015551;
+    color: #FDFBEE;
+    font-size: 3vh;
+
+    #header {
+        width: 40vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+
+        #circle {
+            margin: 4.5vh 2vh;
+            height: 5vh;
+            width: 5vh;
+            border-radius: 5vh;
+            background-color: #FE4F2D;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    }
+    
+}
+
+main {
+    display: flex;
+    flex: 10;
+    align-items: stretch;
+}
+
+#nav {
+    flex: 1;
+    background-color: #57B4BA;
+    padding: 2vh;
+}
+
+nav {
+    background-color: #57B4BA; 
+    color: #015551;
+    
+    #nav_links {
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 40vh;
+
+        a {
+            text-align: center;
+            background-color: #FDFBEE;
+            padding: 1vh 0;
+            color: #015551;
+            border-radius: 1vh;
+            text-decoration: none;
+        }
+
+        a.current {
+            background-color: #FE4F2D;
+            color: #FDFBEE;
+        }
+    }
+
+    h3 {
+        background-color: #FDFBEE;
+        padding: 2vh 2vh;
+        margin: 0;
+        border-radius: 1vh;
+        text-align: center;
+    }
+
+    
+}
+
+#section {
+    flex: 5;
+    background-color: #57B4BA;
+    padding: 2vh;
+    color: #015551;
+    
+    section {
+        background-color: #FDFBEE;
+        padding: 2vh;
+        border-radius: 1vh;
+        h1 {
+            margin: 0;
+            padding: 2vh;
+            font-size: 7vh;
+        }
+
+        #img_txt {
+            display: flex;
+            font-size: 2.5vh;
+            img {
+                height: 55vh;
+            }
+
+            #text {
+                padding-left: 1vh;
+                p {
+                    padding-left: 2vh;
+                }
+
+                margin: 0;
+            }
+            .contact {
+                width: fit-content;
+                padding: 1vh 2vh;
+                border-radius: 1vh;
+                border-collapse: collapse;
+                margin: 2vh 0;
+
+                a {
+                    text-decoration: none;
+                    color:#FDFBEE;
+                }
+            }
+
+            #github {
+                background-color: #015551;
+            }
+
+            #ig {
+                background-color: #FE4F2D;
+            }
+
+            #ld {
+                background-color: #57B4BA;
+            }
+
+            p {
+                margin: 1vh;
+            }
+        }
+    }
+}
+
+
+
+footer {
+    flex: 1; 
+    background-color: #015551;
+    color:#FDFBEE;
+    text-align: center;
+}
+
